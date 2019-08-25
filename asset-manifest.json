@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/reshalka/static/css/main.ec469560.chunk.css",
+    "main.js": "/reshalka/static/js/main.9f08f751.chunk.js",
+    "main.js.map": "/reshalka/static/js/main.9f08f751.chunk.js.map",
+    "runtime~main.js": "/reshalka/static/js/runtime~main.4fe2946b.js",
+    "runtime~main.js.map": "/reshalka/static/js/runtime~main.4fe2946b.js.map",
+    "static/js/2.91e8b6a5.chunk.js": "/reshalka/static/js/2.91e8b6a5.chunk.js",
+    "static/js/2.91e8b6a5.chunk.js.map": "/reshalka/static/js/2.91e8b6a5.chunk.js.map",
+    "index.html": "/reshalka/index.html",
+    "precache-manifest.d241e5c09a626574d5315daa8a53e805.js": "/reshalka/precache-manifest.d241e5c09a626574d5315daa8a53e805.js",
+    "service-worker.js": "/reshalka/service-worker.js",
+    "static/css/main.ec469560.chunk.css.map": "/reshalka/static/css/main.ec469560.chunk.css.map",
+    "static/media/index.css": "/reshalka/static/media/Montserrat-Medium.c8b6e083.ttf"
+  }
+}
