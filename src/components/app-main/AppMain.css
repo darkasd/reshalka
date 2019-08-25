@@ -12,6 +12,7 @@
 .row-flex {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin-bottom: 10px;
     align-items: center;
 }
@@ -48,15 +49,19 @@
 .task-text {
     font-weight: bold;
     font-size: 3em;
+    margin: 5px;
 }
 
 .task-answer {
     font-weight: bold;
     font-size: 4em;
     margin: 20px;
+    margin: 5px;
 }
 
 .task-answer-description {
     font-weight: bold;
     font-size: 2em;
+    margin: 5px;
+    margin-bottom: 20px;
 }

@@ -165,16 +165,15 @@ export class AppMain extends React.Component {
                             </div>
                         </div>
                         <ButtonClick text="Начать" onClick={this.onNextClick} isEnabled={true}></ButtonClick>
-                        <div className="column-flex center" style={{ height: '30vh' }}>
-                            <span className="task-text">{this.currentTaskData != null ? this.currentTaskData.TaskText : ""}</span>
-                            <span className="task-answer">{this.answer}</span>
+                        <div className="column-flex center">
+                            <span className="task-text">&nbsp;{this.currentTaskData != null ? this.currentTaskData.TaskText : ""}</span>
+                            <span className="task-answer">&nbsp;{this.answer}</span>
                             <div className="task-answer-description">                                
-                                <span className="right">{this.answerDescriptionRight}</span>
+                                <span className="right">&nbsp;{this.answerDescriptionRight}</span>
                                 <span className="wrong">{this.answerDescriptionWrong}</span>
                             </div>
                         </div>                        
-                        <div className="row-flex">
-                            <ButtonClick text="0" onClick={this.onDigitClick} isEnabled={this.digitButtonEnabled}></ButtonClick>
+                        <div className="row-flex">                            
                             <ButtonClick text="1" onClick={this.onDigitClick} isEnabled={this.digitButtonEnabled}></ButtonClick>
                             <ButtonClick text="2" onClick={this.onDigitClick} isEnabled={this.digitButtonEnabled}></ButtonClick>
                             <ButtonClick text="3" onClick={this.onDigitClick} isEnabled={this.digitButtonEnabled}></ButtonClick>
@@ -184,6 +183,7 @@ export class AppMain extends React.Component {
                             <ButtonClick text="7" onClick={this.onDigitClick} isEnabled={this.digitButtonEnabled}></ButtonClick>
                             <ButtonClick text="8" onClick={this.onDigitClick} isEnabled={this.digitButtonEnabled}></ButtonClick>
                             <ButtonClick text="9" onClick={this.onDigitClick} isEnabled={this.digitButtonEnabled}></ButtonClick>
+                            <ButtonClick text="0" onClick={this.onDigitClick} isEnabled={this.digitButtonEnabled}></ButtonClick>
                             <ButtonClick text="<" onClick={this.onEraseClick} isEnabled={this.eraseButtonEnabled}></ButtonClick>
                             <ButtonClick text="Ответить" onClick={this.onAnswerClick} isEnabled={this.answerButtonEnabled}></ButtonClick>
                             <ButtonClick text="Следующий" onClick={this.onNextClick} isEnabled={this.nextButtonEnabled}></ButtonClick>
@@ -192,10 +192,8 @@ export class AppMain extends React.Component {
                 </div>
                 <div>
                     <TasksHistory Tasks={this.solvedTasks}></TasksHistory>
-                </div>
-                
+                </div>                
             </div>
-            
         );
     }
 };
