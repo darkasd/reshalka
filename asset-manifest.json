@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/reshalka/static/css/main.ec469560.chunk.css",
-    "main.js": "/reshalka/static/js/main.e323f08d.chunk.js",
-    "main.js.map": "/reshalka/static/js/main.e323f08d.chunk.js.map",
+    "main.css": "/reshalka/static/css/main.8bbbdcf9.chunk.css",
+    "main.js": "/reshalka/static/js/main.946e8826.chunk.js",
+    "main.js.map": "/reshalka/static/js/main.946e8826.chunk.js.map",
     "runtime~main.js": "/reshalka/static/js/runtime~main.4fe2946b.js",
     "runtime~main.js.map": "/reshalka/static/js/runtime~main.4fe2946b.js.map",
     "static/js/2.91e8b6a5.chunk.js": "/reshalka/static/js/2.91e8b6a5.chunk.js",
     "static/js/2.91e8b6a5.chunk.js.map": "/reshalka/static/js/2.91e8b6a5.chunk.js.map",
     "index.html": "/reshalka/index.html",
-    "precache-manifest.214c76452214bcbe2013bd679038f8f3.js": "/reshalka/precache-manifest.214c76452214bcbe2013bd679038f8f3.js",
+    "precache-manifest.c785070f64f904933e7c755582c7b007.js": "/reshalka/precache-manifest.c785070f64f904933e7c755582c7b007.js",
     "service-worker.js": "/reshalka/service-worker.js",
-    "static/css/main.ec469560.chunk.css.map": "/reshalka/static/css/main.ec469560.chunk.css.map",
+    "static/css/main.8bbbdcf9.chunk.css.map": "/reshalka/static/css/main.8bbbdcf9.chunk.css.map",
     "static/media/index.css": "/reshalka/static/media/Montserrat-Medium.c8b6e083.ttf"
   }
 }
