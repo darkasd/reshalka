@@ -1,0 +1,62 @@
+.container-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-area {
+    width: 70%;
+}
+
+.row-flex {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.top {    
+    align-items: inherit; 
+}
+
+.center {
+    align-items: center;
+}
+
+.column-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-element {
+    margin-right: 20px;
+}
+
+.column-element {
+    margin-bottom: 10px;
+}
+
+.right {
+    color: green;
+}
+
+.wrong {
+    color: red;
+}
+
+.task-text {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.task-answer {
+    font-weight: bold;
+    font-size: 4em;
+    margin: 20px;
+}
+
+.task-answer-description {
+    font-weight: bold;
+    font-size: 2em;
+}
